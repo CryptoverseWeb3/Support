@@ -18,7 +18,7 @@ jobs:
                 🌟 Welcome to the community 🌟 <br>
             </b> 
 
-            - Don't forget after accepting to make it public, so it appears on your GitHub profile for everyone else to see. 
+            - Don't forget after accepting to make it public, so it appears on your GitHub profile for everyone else to see. <br> 
             - You can do this by finding your name in the GitHub organisation list and change the dropdown to public https://github.com/orgs/CryptoverseWeb3/people
           "
         env:
