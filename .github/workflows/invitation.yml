@@ -15,3 +15,4 @@ jobs:
           comment: 'Invitation sent to join the GitHub Organisation. Welcome to the community 🎉'
         env:
           INVITE_TOKEN: ${{ secrets.INVITE_TOKEN }}
+
