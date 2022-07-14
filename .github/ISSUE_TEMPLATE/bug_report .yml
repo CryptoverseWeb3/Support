@@ -11,9 +11,8 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Description | To Reproduce
+      label: To Reproduce
       description: |
-        Please write what problem/bug you are experiencing or want to report. 
         Steps to reproduce the behavior.
         1. Go to '...'
         2. Click on '...'
