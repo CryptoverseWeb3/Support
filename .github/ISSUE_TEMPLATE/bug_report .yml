@@ -13,7 +13,7 @@ body:
     attributes:
       label: To Reproduce
       description: |
-        Steps to reproduce the behavior.
+        Steps to reproduce the bug/behavior.
         1. Go to '...'
         2. Click on '...'
         3. Scroll down to '...'
@@ -25,13 +25,6 @@ body:
     attributes:
       label: Expected Behavior
       description: A clear and concise description of what you expected to happen.
-    validations:
-      required: false
-  - type: textarea
-    id: actualbhv
-    attributes:
-      label: Actual behavior/contents
-      description: Please write here the actual behavior/contents
     validations:
       required: false
   - type: textarea
