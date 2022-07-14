@@ -4,36 +4,41 @@ title: "[BUG] <description>"
 labels: [bug]
 body:
   - type: textarea
-    id: subject
     attributes:
-      label: Problem subject
-      description: Use one of the following boxes. If none of them apply, please specify.
-      placeholder: |
-        - [ ] Contracts
-        - [ ] Tests
-        - [ ] Documentation
-        - [ ] Other (please specify)
+      label: Describe the bug
+      description: A clear and concise description of what the bug is
     validations:
-      required: false
+      required: true
   - type: textarea
-    id: description
     attributes:
-      label: Description
-      description: Please write what problem/bug you are experiencing or want to report.
+      label: Description | To Reproduce
+      description: |
+        Please write what problem/bug you are experiencing or want to report. 
+        Steps to reproduce the behavior.
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
     validations:
       required: true
   - type: textarea
     id: expectedbhv
     attributes:
-      label: Expected behavior/contents
-      description: Please write here the expected behavior/contents
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
     validations:
-      required: true
+      required: false
   - type: textarea
     id: actualbhv
     attributes:
       label: Actual behavior/contents
       description: Please write here the actual behavior/contents
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Screenshot/ Video
+      description: If applicable, add screenshots to help explain your problem.
     validations:
       required: false
   - type: checkboxes
