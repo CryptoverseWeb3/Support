@@ -1,7 +1,7 @@
-name: 📄 Documentation issue
+name: Documentation issue
 description: Found an issue in the documentation? You can use this one!
 title: '[DOCS] <description>'
-labels: ['📄 aspect: text']
+labels: [Documentation issue]
 body:
   - type: textarea
     id: description
@@ -24,6 +24,14 @@ body:
       description: Is there anything else we should know about this issue?
     validations:
       required: false
+  - type: checkboxes
+    id: coc
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, I confirm I've read and complied with the [CoC](https://github.com/CryptoverseWeb3/Support/blob/main/CODE_OF_CONDUCT.md) 🖖
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
   - type: markdown
     attributes:
       value: |
